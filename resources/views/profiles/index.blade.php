@@ -7,12 +7,13 @@
             <img src="https://th.bing.com/th/id/OIP.lCLK-kz30rnOxtm0vr16lgHaHa?pid=Api&rs=1" class="rounded-circle h-75 w-75">
         </div>
         <div class="col-9 pt-5">
-            <div>
+            <div class="d-flex justify-content-between align-items-baseline">
                 <h1>{{$user->username}}</h1>
+                <a href="/p/create">add new post</a>
             </div>
-
+            <a href="/profile/{{$user->id}}/edit">Edit Profile</a>
             <div class="d-flex">
-                <div class="pr-5"><strong>0</strong> posts</div>
+                <div class="pr-5"><strong>{{$user->posts->count()}}</strong> posts</div>
                 <div class="pr-5"><strong>0</strong> followers</div>
                 <div class="pr-5"><strong>0</strong> following</div>
             </div>
@@ -22,15 +23,13 @@
         </div>
     </div>
     <div class="row pt-5">
-        <div class="col-4 ">
-            <img src="https://thumbs.dreamstime.com/x/builder-551539.jpg" class="w-50 h-75">
+        @foreach($user->posts as $post)
+        <div class="col-4 pb-4">
+            <a href="/p/{{$post->id}}">
+            <img src="/storage/{{$post->image}}" class="w-100">
+            </a>
         </div>
-        <div class="col-4">
-            <img src="https://thumbs.dreamstime.com/x/builder-551539.jpg" class="w-50 h-75">
-        </div>
-        <div class="col-4">
-            <img src="https://thumbs.dreamstime.com/x/builder-551539.jpg" class="w-50 h-75">
-        </div>
+        @endforeach
     </div>
 </div>
 @endsection
