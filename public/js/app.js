@@ -1904,9 +1904,46 @@ module.exports = {
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FollowButton.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\algir\\PlayGround\\resources\\js\\components\\FollowButton.vue: Unexpected token (19:8)\n\n\u001b[0m \u001b[90m 17 | \u001b[39m        \u001b[36mreturn\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 18 | \u001b[39m            status\u001b[33m:\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 | \u001b[39m        }\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 | \u001b[39m    methods\u001b[33m:\u001b[39m {\u001b[0m\n    at Parser._raise (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:746:17)\n    at Parser.raiseWithData (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:739:17)\n    at Parser.raise (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:733:17)\n    at Parser.unexpected (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:8807:16)\n    at Parser.parseExprAtom (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10130:20)\n    at Parser.parseExprSubscripts (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9656:23)\n    at Parser.parseMaybeUnary (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9636:21)\n    at Parser.parseExprOps (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9506:23)\n    at Parser.parseMaybeConditional (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9479:23)\n    at Parser.parseMaybeAssign (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9434:21)\n    at Parser.parseObjectProperty (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10586:101)\n    at Parser.parseObjPropValue (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10611:101)\n    at Parser.parseObjectMember (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10535:10)\n    at Parser.parseObj (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10448:25)\n    at Parser.parseExprAtom (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10055:28)\n    at Parser.parseExprSubscripts (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9656:23)\n    at Parser.parseMaybeUnary (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9636:21)\n    at Parser.parseExprOps (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9506:23)\n    at Parser.parseMaybeConditional (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9479:23)\n    at Parser.parseMaybeAssign (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9434:21)\n    at Parser.parseExpression (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9386:23)\n    at Parser.parseReturnStatement (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11523:28)\n    at Parser.parseStatementContent (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11204:21)\n    at Parser.parseStatement (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11156:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11731:25)\n    at Parser.parseBlockBody (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11717:10)\n    at Parser.parseBlock (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11701:10)\n    at Parser.parseFunctionBody (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10708:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10691:10)\n    at C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11871:12\n    at Parser.withTopicForbiddingContext (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11031:14)\n    at Parser.parseFunction (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:11870:10)\n    at Parser.parseFunctionExpression (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10171:17)\n    at Parser.parseExprAtom (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:10061:21)\n    at Parser.parseExprSubscripts (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9656:23)\n    at Parser.parseMaybeUnary (C:\\Users\\algir\\PlayGround\\node_modules\\@babel\\parser\\lib\\index.js:9636:21)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['userId', 'follows'],
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  },
+  data: function data() {
+    return {
+      status: this.follows
+    };
+  },
+  methods: {
+    followUser: function followUser() {
+      var _this = this;
+
+      axios.post('/follow/' + this.userId).then(function (response) {
+        _this.status = !_this.status;
+        console.log(response.data);
+      })["catch"](function (errors) {
+        if (errors.response.status == 401) {
+          window.location = '/login';
+        }
+      });
+    }
+  },
+  computed: {
+    buttonText: function buttonText() {
+      return this.status ? 'Unfollow' : 'Follow';
+    }
+  }
+});
 
 /***/ }),
 
@@ -37454,11 +37491,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "button",
-      { staticClass: "btn btn-primary ml-4", on: { click: _vm.followUser } },
-      [_vm._v("Follow")]
-    )
+    _c("button", {
+      staticClass: "btn btn-primary ml-4",
+      domProps: { textContent: _vm._s(_vm.buttonText) },
+      on: { click: _vm.followUser }
+    })
   ])
 }
 var staticRenderFns = []
@@ -49717,14 +49754,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!**************************************************!*\
   !*** ./resources/js/components/FollowButton.vue ***!
   \**************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FollowButton_vue_vue_type_template_id_426ba0ae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FollowButton.vue?vue&type=template&id=426ba0ae& */ "./resources/js/components/FollowButton.vue?vue&type=template&id=426ba0ae&");
 /* harmony import */ var _FollowButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FollowButton.vue?vue&type=script&lang=js& */ "./resources/js/components/FollowButton.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _FollowButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _FollowButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -49754,7 +49792,7 @@ component.options.__file = "resources/js/components/FollowButton.vue"
 /*!***************************************************************************!*\
   !*** ./resources/js/components/FollowButton.vue?vue&type=script&lang=js& ***!
   \***************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
